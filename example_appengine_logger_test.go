@@ -57,6 +57,4 @@ func ExampleAppEngine() {
 	req := httptest.NewRequest("GET", "http://example.com/foo", nil)
 	w := httptest.NewRecorder()
 	httpHandler(w, req)
-
-	// Output: Value for result: false
 }
