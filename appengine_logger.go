@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"golang.org/x/net/context"
-	goggg "google.golang.org/appengine"
+	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"
 )
 
@@ -17,7 +17,7 @@ type appEngineLogger struct {
 // that logs to the Google AppEngine.
 func NewAppEngineLogger(r *http.Request) Logger {
 	return &appEngineLogger{
-		context: goggg.NewContext(r),
+		context: appengine.NewContext(r),
 	}
 }
 

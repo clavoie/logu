@@ -1,2 +1,2 @@
-# logu
+# logu [![GoDoc](https://godoc.org/github.com/clavoie/logu?status.svg)](http://godoc.org/github.com/clavoie/logu) [![Build Status](https://travis-ci.org/clavoie/logu.svg?branch=master)](https://travis-ci.org/clavoie/logu) [![codecov](https://codecov.io/gh/clavoie/logu/branch/master/graph/badge.svg)](https://codecov.io/gh/clavoie/logu) [![Go Report Card](https://goreportcard.com/badge/github.com/clavoie/logu)](https://goreportcard.com/report/github.com/clavoie/logu)
 Injectable wrappers around AppEngine logging for Go
