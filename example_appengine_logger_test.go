@@ -41,7 +41,7 @@ func MyHandler(logger logu.Logger, dep Dependency) {
 	}
 }
 
-func ExampleAppEngine() {
+func ExampleLogger() {
 	resolver, err := di.NewResolver(onResolveErr, defs, logu.NewAppEngineDiDefs())
 
 	if err != nil {
