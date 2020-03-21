@@ -15,4 +15,4 @@ type Logger interface {
 	Warningf(format string, args ...interface{})
 }
 
-//go:generate mockgen -destination mock_logu\mocks.go github.com/clavoie/logu Logger
+//go:generate mockgen -destination mock_logu\mocks.go github.com/clavoie/logu/v2 Logger
