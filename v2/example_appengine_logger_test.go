@@ -7,7 +7,7 @@ import (
 
 	"github.com/clavoie/di/v2"
 	"github.com/clavoie/erru"
-	"github.com/clavoie/logu"
+	"github.com/clavoie/logu/v2"
 )
 
 func onResolveErr(err *di.ErrResolve, w http.ResponseWriter, r *http.Request) {

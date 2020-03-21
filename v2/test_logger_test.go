@@ -3,7 +3,7 @@ package logu_test
 import (
 	"testing"
 
-	"github.com/clavoie/logu"
+	"github.com/clavoie/logu/v2"
 )
 
 func TestTestLogger(t *testing.T) {
